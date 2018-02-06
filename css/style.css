@@ -199,34 +199,7 @@ div {
 }
 
 
-@media only screen and (max-width:800px) // leq 800px for tablets and phones.
-{
 
-		.experience_title {
-			font-size: 200px;
-			color: red;
-		}
-		h2 {
-			font-size: 16px;
-		}
-    /* #title, #link_container {
-			display: block;
-			float: none;
-			width: 100%;
-		}
-
-		#todd_name {
-			color: pink;
-		}
-
-		#header {
-			height: 200px;
-		}
-
-		#nav_margin_container {
-			height: 200px;
-		} */
-}
 
 /* Skills */
 #skills {
@@ -280,4 +253,24 @@ div {
 
 .span_italics {
 	font-style: italic;
+}
+
+@media screen and (max-width:800px) {
+
+		h2 {
+			font-size: 16px;
+		}
+    #link_container {
+			display: none;
+		}
+		#title {
+			float: none;
+		}
+		h4 {
+			font-size: 29px;
+		}
+
+		/* #nav_margin_container {
+			height: 200px;
+		} */
 }
