@@ -28,7 +28,7 @@ p1 {
 
 h2 {
 	font-weight: bold;
-	font-size: 30px;
+	font-size: 18px;
 }
 
 h3 {
@@ -44,15 +44,6 @@ div {
 	margin: 0 auto;
 }
 
-.nav_margin_container {
-	max-width: 1080px;
-	width:80%;
-	height:100%;
-}
-
-.content_margin_container {
-	max-width: 800px;
-}
 
 /* Experiences */
 
@@ -74,10 +65,8 @@ div {
 	padding-top: 4vh;
 }
 
-
-
 .experience_module {
-	min-height: 30vh; /* scale dynamically based on screen size */
+	min-height: 10vh; /* scale dynamically based on screen size */
 	overflow:auto;
 	padding-bottom: 5vh;
 }
@@ -141,6 +130,7 @@ div {
 	height: 10vh;
 	padding-left: 20%;
 	padding-right: 20%;
+	padding-bottom: 15px;
 }
 
 #profile_pic {
@@ -156,8 +146,8 @@ div {
 
 .contact_img {
 	border-radius: 15%;
-	height:80%;
-	width:auto;
+	height:auto;
+	width:80%;
 }
 
 .contact_img:hover {
@@ -166,6 +156,16 @@ div {
 
 
 /* Nav bar */
+.nav_margin_container {
+	max-width: 1080px;
+	width:80%;
+	height:100%;
+}
+
+.content_margin_container {
+	max-width: 800px;
+}
+
 #header {
 	height: 85px;
 	padding-top: 20px;
@@ -198,6 +198,32 @@ div {
 	margin-left: 40px;
 }
 
+
+@media only screen and (max-width:800px) // leq 800px for tablets and phones.
+{
+
+		.experience_title {
+			font-size: 200px;
+			color: red;
+		}
+    /* #title, #link_container {
+			display: block;
+			float: none;
+			width: 100%;
+		}
+
+		#todd_name {
+			color: pink;
+		}
+
+		#header {
+			height: 200px;
+		}
+
+		#nav_margin_container {
+			height: 200px;
+		} */
+}
 
 /* Skills */
 #skills {
