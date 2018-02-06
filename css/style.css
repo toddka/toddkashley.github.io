@@ -260,8 +260,13 @@ div {
 		h2 {
 			font-size: 16px;
 		}
-		#wid {
-			font-size: 14px;
+		/* Lines before/after header text */
+		.span_line:after,
+		.span_line:before{
+		    content:"\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0";
+		    text-decoration:line-through;
+			  font-size: .6em;
+			  line-height: 2em;
 		}
     #link_container {
 			display: none;
