@@ -169,8 +169,8 @@ div {
 #header {
 	height: 85px;
 	padding-top: 20px;
-	border-bottom: 1px solid lightgrey;
-	background: linear-gradient(to bottom right, rgb(63,144,245), rgb(38,198,208));
+	/* border-bottom: 1px solid lightgrey; */
+	background: linear-gradient(to bottom right,rgb(38,198,208),  rgb(63,144,245));
 	opacity: 50
 }
 
